@@ -1,0 +1,47 @@
+[
+  {
+    "id": 4,
+    "nickname": "John Doe",
+    "title": "첫번째 글 제목입니다.",
+    "content": "<p>그가 몇가지 해명을 말해 주었는데 그것으로 우리는 그 사람이 그런 의도로 말하지 않았음을 알 수 있었다.<br />그의 해명은 다음과 같았다.</p><ul><li>첫번째</li><li>두번째</li><li><b><font style=\"background-color:rgb(255, 255, 0)\" color=\"#ff0000\">세번째 (특히 중요)</font></b></li><li>네번째</li></ul>",
+    "regdt": "2021-08-16 22:14:49",
+    "moddt": "2021-08-17 10:59:19",
+    "type": "edit"
+  },
+  {
+    "id": 6,
+    "nickname": "지단로보트",
+    "title": "Spring Boot, MyBatis, MariaDB 갈레라 클러스터 연결 정보 작성하기",
+    "content": "<ul><li><font color=\"#212529\">https://jsonobject.tistory.com/430</font></li></ul><h3 style=\"font-size:26px;margin:52px auto 28px;padding:0px;outline:none;font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;line-height:30px;color:rgb(33, 37, 41)\">목표</h3><ul><li><span style=\"font-weight:bolder\">Spring Boot 1.5.x</span> 기반의 프로젝트에 HikariCP 커넥션 풀 라이브러리를 적용한다.</li><li><span style=\"font-weight:bolder\">mariadb-java-client</span>가 자체 제공하는 쿼리 디버깅 기능을 활성화한다.</li><li><span style=\"font-weight:bolder\">MariaDB</span>의 갈레라 클러스터(멀티 마스터 레플리케이션)를 지원하는 2개(하나는 <span style=\"font-weight:bolder\">read-write</span> 전용, 하나는 <span style=\"font-weight:bolder\">read-only</span> 전용)의 DataSource 빈을 생성한다.</li><li>생성된 <span style=\"font-weight:bolder\">DataSource</span>를 이용하여 MyBatis로 데이터베이스에 대한 <span style=\"font-weight:bolder\">CRUD</span> 수행이 가능한 SqlSession 빈을 생성한다.</li></ul><h3 style=\"font-size:26px;margin:52px auto 28px;padding:0px;outline:none;font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;line-height:30px;color:rgb(33, 37, 41)\"><a href=\"https://jsonobject.tistory.com/430#build.gradle\" style=\"color:rgb(0, 123, 255)\"></a>build.gradle</h3><ul><li><span style=\"font-weight:bolder\">/build.gradle</span> 파일에 아래 내용을 추가한다. 데이터베이스 연결에 사용할 라이브러리 정보를 작성한다.</li></ul>",
+    "regdt": "2021-08-16 22:54:04",
+    "moddt": "2021-08-17 11:07:01",
+    "type": "edit"
+  },
+  {
+    "id": 8,
+    "nickname": "1111111111111",
+    "title": "2222222222222",
+    "content": "<h3>목표</h3><ul><li>Spring Boot 1.5.x 기반의 <a href=\"https://daum.net\" target=\"_blank\">프로젝트</a>에 HikariCP 커넥션 풀 라이브러리를 적용한다.</li><li>mariadb-java-client가 자체 제공하는 쿼리 디버깅 기능을 활성화한다.</li><li>MariaDB의 갈레라 클러스터(멀티 마스터 레플리케이션)를 지원하는 2개(하나는 read-write 전용, 하나는 read-only 전용)의 DataSource 빈을 생성한다.</li><li>생성된 DataSource를 이용하여 <b>MyBatis</b>로 데이터베이스에 대한 CRUD 수행이 가능한 SqlSession 빈을 생성한다.</li></ul><h3><a href=\"https://jsonobject.tistory.com/430#build.gradle\"></a>build.gradle</h3><ul><li>/build.gradle 파일에 아래 내용을 추가한다. 데이터베이스 연결에 사용할 라이브러리 정보를 작성한다.</li></ul>",
+    "regdt": "2021-08-16 23:00:12",
+    "moddt": "2021-08-17 00:14:10",
+    "type": "edit"
+  },
+  {
+    "id": 9,
+    "regdt": "2021-08-16 23:48:20",
+    "nickname": "LESSIPE",
+    "title": "Vue.js 시작하기",
+    "content": "<p>aaaaaaaaaaaaaaaaaaa</p><p><iframe frameborder=\"0\" src=\"//www.youtube.com/embed/GEH0KcjUhiQ\" width=\"640\" height=\"360\" class=\"note-video-clip\"></iframe></p>",
+    "moddt": "2021-08-17 00:19:54",
+    "type": "edit"
+  },
+  {
+    "id": 10,
+    "regdt": "2021-08-17 10:43:28",
+    "nickname": "그림파일 테스트",
+    "title": "그림파일 테스트 제목",
+    "content": "<p><img src=\"/images/image-1629164587080.png\" style=\"width:100%\" /></p><ul><li>그림파일을 포함했을 때</li></ul>",
+    "moddt": "2021-08-17 10:45:36",
+    "type": "edit"
+  }
+]

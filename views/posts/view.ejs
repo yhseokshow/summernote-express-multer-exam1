@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Hello, world!</title>
+
+    <link
+      rel="stylesheet"
+      href="/stylesheets/style.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      style="
+        width: 900px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 50px;
+      "
+    >
+      <a href="/posts/list" class="btn btn-success"
+        ><i class="fas fa-list"></i> List</a
+      >
+
+      <a href="/posts/form/<%= post.id %>" class="btn btn-warning"
+        ><i class="fas fa-list"></i> Edit</a
+      >
+
+      <a href="/posts/delete/<%= post.id %>" class="btn btn-danger"
+        ><i class="fas fa-list"></i> Delete</a
+      >
+      <div style="margin-bottom: 20px;"></div>
+      <div class="form-group">
+        <h4><%= post.title %></h4>
+      </div>
+      <div
+        style="border: 1px solid lightgray; width: 100%; margin: 5px 0;"
+      ></div>
+      <label>작성자</label>
+      <%= post.nickname %>
+      <span class="badge rounded-pill bg-primary"
+        ><i class="fa fa-calendar" aria-hidden="true"></i> registred</span
+      >
+      <%= post.regdt %>&nbsp;
+      <span class="badge rounded-pill bg-warning"
+        ><i class="fa fa-calendar" aria-hidden="true"></i> modified</span
+      >
+      <%= post.moddt %>
+      <div
+        style="border: 1px solid lightgray; width: 100%; margin: 5px 0;"
+      ></div>
+      <div style="margin-bottom: 20px;"></div>
+      <%- post.content %>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
